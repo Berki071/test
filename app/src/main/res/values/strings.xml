@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Test Improve</string>
+    <string name="view">View</string>
+    <string name="send_by_email">Send By Email</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="password">Password</string>
+    <string name="addAPhoto">Add a photo!</string>
+    <string name="addAEmail">Add a email!</string>
+    <string name="addAPhone">Add a phone!</string>
+    <string name="addAPassword">Add a password!</string>
+    <string name="emailNotValid">Email is not valid!</string>
+    <string name="phoneNotValid">Phone is not valid!</string>
+    <string name="errSizePassword">Minimum password length 6 characters</string>
+    <string name="errPasswordContainSimbols">Password must contain letters and numbers</string>
+</resources>

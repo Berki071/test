@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:showIn="@layout/activity_send_by_email">
+
+    <ImageView
+        android:id="@+id/icoEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/email" android:contentDescription="TODO"/>
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="TextView"
+        android:textColor="@color/gray400"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/icoEmail"
+        app:layout_constraintLeft_toRightOf="@+id/icoEmail"
+        app:layout_constraintTop_toTopOf="@+id/icoEmail" />
+
+    <ImageView
+        android:id="@+id/icoPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/icoEmail"
+        app:srcCompat="@drawable/phone" />
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="TextView"
+        android:textColor="@color/gray400"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/icoPhone"
+        app:layout_constraintLeft_toRightOf="@+id/icoPhone"
+        app:layout_constraintTop_toTopOf="@+id/icoPhone" />
+
+    <ImageView
+        android:id="@+id/icoPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/icoPhone"
+        app:srcCompat="@drawable/wrench" />
+
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="TextView"
+        android:textColor="@color/gray400"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/icoPassword"
+        app:layout_constraintLeft_toRightOf="@+id/icoPassword"
+        app:layout_constraintTop_toTopOf="@+id/icoPassword" />
+</android.support.constraint.ConstraintLayout>
